@@ -1,0 +1,258 @@
+html{
+
+}
+
+body{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#startText {
+	margin-top: 300px;
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-size: 3em;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 240px;
+}
+
+.titleCard {
+	padding-bottom: 240px;
+    margin-top: -18px;
+    font-size: 0.8em;
+    font-family: Georgia, serif;
+    text-align: center;
+
+}
+
+img{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+#lowRow {
+	padding-top: 300px;
+}
+
+@media (min-width: 651px) {
+    .row{
+        padding-bottom: 30px;
+        padding-top: 80px;
+        min-height: 400px;
+    }
+
+    .leftP{
+   font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: left;
+    display: block;
+    position: relative;
+    line-height: 23px;
+    padding-top: 50%;
+
+}
+
+.centerP{
+   font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    position: relative;
+    line-height: 23px;
+}
+
+.rightP{
+   font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: right;
+    display: block;
+    position: relative;
+    line-height: 23px;
+    padding-top: 50%;
+}
+
+#newsVideo {
+	margin-top: -330px;
+    margin-left: 110px;
+    position: relative;
+    display: block;
+    z-index: 1000;
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+}
+
+#ending{
+  background-color: black;
+  color: white;
+  padding: 0px;
+  min-height: 100px;
+  width: 100%;
+  margin-top: 100px;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+}
+#ending a{
+  color: white;
+  font-family: Georgia;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2em;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+#ending a:hover{
+  color: #AAA;
+  transition: 0.4s;
+}
+
+#loading{
+  background:rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  left:0;
+  right:0;
+}
+
+#loading img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   max-width: 300px;
+   width: 100%;
+   height: 104px;
+   margin-top: -52px; /* Half the height */
+   margin-left: -150px; /* Half the width */
+}
+
+}/********* Close ***********/
+/********** Mobile ***********/
+@media (max-width: 650px) {
+    .row{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .leftP{
+   font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: left;
+    display: block;
+    position: relative;
+    line-height: 23px;
+    padding-top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.centerP{
+   font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    position: relative;
+    line-height: 23px;
+    padding-top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rightP{
+   font-family: Georgia, serif;
+    font-size: 1em;
+    text-align: right;
+    display: block;
+    position: relative;
+    line-height: 23px;
+    padding-top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#newsVideo {
+	margin-top: -150px;
+    margin-left: 60px;
+    position: relative;
+    display: block;
+    z-index: 1000;
+    width: 100%;
+    max-width: 150px;
+    max-height: 80px;
+}
+
+#ending{
+  background-color: black;
+  color: white;
+  padding: 0px;
+  min-height: 100px;
+  width: 100%;
+  margin-top: 100px;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+}
+#ending a{
+  color: white;
+  font-family: Georgia;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2em;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+#ending a:active{
+  color: #AAA;
+  transition: 0s;
+}
+
+#loading{
+  background:rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  left:0;
+  right:0;
+}
+
+#loading img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 200px;
+  width: 100%;
+  height: 69px;
+  margin-top: -35px; /* Half the height */
+  margin-left: -100px; /* Half the width */
+}
+
+}
