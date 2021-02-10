@@ -14,17 +14,12 @@ body{
     padding-right: 15px;
 }
 
-#startText {
-	margin-top: 300px;
-}
-
 h1{
     font-family: Georgia, serif;
     font-size: 3em;
     text-align: center;
     display: block;
     position: relative;
-    padding-top: 240px;
 }
 
 .titleCard {
@@ -44,15 +39,22 @@ img{
     width: 100%;
 }
 
-#lowRow {
-	padding-top: 300px;
+.row{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
+
+/* #lowRow {
+	padding-top: 300px;
+} */
 
 @media (min-width: 651px) {
     .row{
         padding-bottom: 30px;
-        padding-top: 80px;
         min-height: 400px;
+        flex-direction: row;
     }
 
     .leftP{
@@ -62,8 +64,6 @@ img{
     display: block;
     position: relative;
     line-height: 23px;
-    padding-top: 50%;
-
 }
 
 .centerP{
@@ -82,7 +82,7 @@ img{
     display: block;
     position: relative;
     line-height: 23px;
-    padding-top: 50%;
+    /* padding-top: 50%; */
 }
 
 #newsVideo {
@@ -154,6 +154,7 @@ img{
     .row{
         padding-bottom: 10px;
         padding-top: 10px;
+        flex-direction: column-reverse;
     }
 
     .leftP{
@@ -163,9 +164,7 @@ img{
     display: block;
     position: relative;
     line-height: 23px;
-    padding-top: 15%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px;
 }
 
 .centerP{
