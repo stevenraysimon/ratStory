@@ -1,5 +1,13 @@
 $(document).ready(function(){
-setTimeout(function(){ $('#loading').fadeOut('slow'); }, 3000);
+setTimeout(function(){ 
+    $('#loadingImage').fadeOut('slow');
+    $('#start').fadeIn(); 
+}, 3000);
+
+$('#start').click(function(){
+    $('#loading').fadeOut('slow');
+});
+
 function myOnLoadedData() { console.log('Loaded data'); }
 
 var isMobile = false;
